@@ -38,4 +38,5 @@ jobs:
         uses: Azure/k8s-set-context@v2
         with:
           methods: kubeconfig
+          # config da nuvem
           kubeconfig: ${{ secrets.K8S_KUBECONFIG }}
